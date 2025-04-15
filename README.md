@@ -36,7 +36,11 @@ whipUp freedomFunction(freedom, liberty) {     return freedom + liberty; }
 
 
 ```muricascript
-if ('Murica' == landOfTheFree) {     holler("HELL YEAH!"); } else {     holler("Try again, commie."); }
+if ('Murica' == landOfTheFree) {
+  holler("HELL YEAH!");
+} else {
+  holler("Try again, commie.");
+}
 ```
 
 **Translation:**  
@@ -49,7 +53,9 @@ if ('Murica' == landOfTheFree) {     holler("HELL YEAH!"); } else {     holler("
 
 
 ```muricascript
-keepOnTruckin(i = 0; i < 10; i++) {     holler("USA #" + i); }
+keepOnTruckin(i = 0; i < 10; i++) {
+  holler("USA #" + i);
+}
 ```
 
 **Translation:**  
@@ -77,13 +83,7 @@ loadout "grillMasterToolkit.mrc";
 ### 🌎 **7\. Entry Point**
 
 ```muricascript
-main() {     holler("Welcome to Murica!"); }
+main() {
+  holler("Welcome to Murica!");
+}
 ```
-
-* * *
-
-### 🧨 **Bonus: Explosive Freedom Operator**
-
-```muricascript
-**Translation:**  
-The `**` operator multiplies liberty by itself — _because exponential freedom._
